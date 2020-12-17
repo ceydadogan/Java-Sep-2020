@@ -1,0 +1,18 @@
+/*----------------------------------------------------------------------------------------------------------------------	
+	Yıldızsız import static bildiriminin genel biçimi:
+	import static <paket ismi>[.al paket isimleri].<tür isimi>.*;
+	
+	
+----------------------------------------------------------------------------------------------------------------------*/
+package org.csystem.app;
+
+import test.Sample;
+
+class App {	
+	public static void main(String [] args) 
+	{
+		Sample s = new Sample();
+		
+		s.foo();	
+	}	
+}

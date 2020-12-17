@@ -1,0 +1,30 @@
+/*----------------------------------------------------------------------------------------------------------------------	
+	 Java 7 ile birlikte switch deyiminde String'de kullanılabilmektedir. 
+----------------------------------------------------------------------------------------------------------------------*/
+package csd;
+
+class App {
+	public static void main(String [] args) 
+	{	
+		java.util.Scanner kb = new java.util.Scanner(System.in);
+		System.out.print("Şehir ismini giriniz:");
+		String city = kb.nextLine();
+		
+		switch (city) {
+		case "istanbul":
+			System.out.println("Marmara bölgesi");
+			break;
+		case "ankara":
+			System.out.println("İç Anadolu bölgesi");
+			break;
+		case "izmir":
+			System.out.println("Ege bölgesi");
+			break;
+		default:
+			System.out.println("Geçersiz şehir");
+		}
+		
+		System.out.println("Tekrar yapıyor musunuz?");
+	}
+}
+

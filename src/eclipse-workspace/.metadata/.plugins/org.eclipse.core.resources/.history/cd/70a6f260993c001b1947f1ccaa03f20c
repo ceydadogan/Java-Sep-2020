@@ -1,0 +1,5 @@
+package test;
+
+public class Sample {
+	System.out.println("Merhaba ben Sample!!!");
+}

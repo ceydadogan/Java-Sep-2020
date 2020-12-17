@@ -1,0 +1,16 @@
+/*----------------------------------------------------------------------------------------------------------------------	
+	Java 5 ile birlikte import static bildirimleri eklenmiştir. import static bildirimlerinin de ikiş biçimi vardır.
+	 
+----------------------------------------------------------------------------------------------------------------------*/
+package org.csystem.app;
+
+import test.Sample;
+
+class App {	
+	public static void main(String [] args) 
+	{
+		Sample s = new Sample();
+		
+		s.foo();	
+	}	
+}

@@ -1,0 +1,18 @@
+/*----------------------------------------------------------------------------------------------------------------------	
+	Yıldızlı import static bildiriminin genel biçimi:
+	import static <paket ismi>[.aly paket isimleri].<tür ismi>.*;
+	
+	Bu bildirim ile bildirimin yapıldığı java dosyasında bildirime ilişkin tüm static elemanlara doğrudan kullanılabilir
+	duruma gelir
+----------------------------------------------------------------------------------------------------------------------*/
+package org.csystem.app;
+
+import java.util.Random;
+
+class App {	
+	public static void main(String [] args) 
+	{
+		Random r = new Random();
+			
+	}	
+}
