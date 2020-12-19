@@ -1,27 +1,16 @@
 /*----------------------------------------------------------------------------------------------------------------------
-    [] operatörüne pozitfi ya da negatif bakımdan sınırlar ([0, length)) dışında bir index numarası verildiğinde
-    exception oluşur
+    ArrayUtil sınıfının display metotları
 ----------------------------------------------------------------------------------------------------------------------*/
 package org.csystem.app;
 
-import java.util.Scanner;
+import org.csystem.util.ArrayUtil;
 
 class App {
     public static void main(String [] args)
     {
-        Scanner kb = new Scanner(System.in);
-        System.out.print("Bir sayı giriniz:");
-        int n = Integer.parseInt(kb.nextLine());
+        int [] a = {1, 2, 3, 4, 5, 6};
 
-        int [] a;
-
-        a = new int[n];
-
-        for (int i = 0; i < a.length; ++i)
-            a[i] = i + 1;
-
-        //...
-
-        System.out.println(a[10]);
+        ArrayUtil.display('\t', '\n', a);
+        System.out.println("Merhaba");
     }
 }
