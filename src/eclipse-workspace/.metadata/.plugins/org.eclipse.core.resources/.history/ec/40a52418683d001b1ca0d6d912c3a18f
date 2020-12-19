@@ -1,5 +1,0 @@
-package org.csystem.app;
-
-public class Sample {
-	System.out.println("foo");
-}
