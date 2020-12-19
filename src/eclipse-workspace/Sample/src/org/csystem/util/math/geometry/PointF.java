@@ -3,7 +3,7 @@
 ----------------------------------------------------------------------------------------------------------------------*/
 package org.csystem.util.math.geometry;
 
-import static java.lang.Math.*;
+import static java.lang.Math.sqrt;
 
 public class PointF {
 	public float x;
